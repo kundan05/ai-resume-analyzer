@@ -1,3 +1,4 @@
+// Force rebuild
 import { type FormEvent, useState } from 'react'
 import Navbar from "~/components/Navbar";
 import FileUploader from "~/components/FileUploader";
@@ -9,7 +10,7 @@ import { prepareInstructions } from "../../constants";
 import { HeroGeometric } from "~/components/ui/shape-landing-hero";
 import { LiquidButton } from "~/components/ui/liquid-glass-button";
 import { MagnetizeButton } from "~/components/ui/magnetize-button";
-import { RainbowButton } from "~/components/ui/rainbow-button";
+import { ButtonColorful } from "~/components/ui/button-colorful";
 import { ButtonCta } from "~/components/ui/button-shiny";
 
 const Upload = () => {
@@ -152,9 +153,7 @@ const Upload = () => {
                         </div>
 
                         <div className="pt-4 flex justify-center w-full">
-                            <RainbowButton type="submit" className="shadow-2xl">
-                                Analyze Resume
-                            </RainbowButton>
+                            <ButtonColorful type="submit" className="shadow-2xl w-full md:w-auto" label="Analyze Resume" />
                         </div>
                     </form>
                 )}
