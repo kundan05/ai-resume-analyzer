@@ -1,7 +1,7 @@
 # AI Resume Analyzer
+<img width="1682" height="883" alt="Screenshot from 2025-12-01 11-45-38" src="https://github.com/user-attachments/assets/4b7d72f5-f5ee-4880-b9a5-7caa134c7d46" />
 
-<img width="1682" height="883" alt="Screenshot from 2025-12-01 11-45-38" src="https://github.com/user-attachments/assets/6c0c2ee2-f11b-4dd7-8b0c-99af6955d7ac" />
-
+Live Demo - https://ai-resume-analyzer-0x4h.onrender.com
 
 ## 🚀 Overview
 
